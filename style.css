@@ -1,3 +1,8 @@
+/* Google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Gorditas:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Ole&family=Oswald:wght@200..700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +10,22 @@
 }
 
 /* General styles */
+
+
+:root {
+    --primary-color: #A3D78A;
+    --secondary-color: #FF5555;
+    --text-color: #6b1414;
+    --accent-color: #FF937E;
+    --highlight-color: #C1E59F;
+    --font-family: 'Gorditas', sans-serif;
+
+}
     /* Custom styles for the navbar */
 
 #custom-navbar {
-    background-color: rgba(0, 128, 0, 0.452) ;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
     /* Body styles */
 
@@ -25,10 +42,13 @@ body {
 
 main {
   flex: 1;
-  background-color: rgb(189, 28, 55);
+  background-color: white;
+  font-family: var(--font-family);
+  color: var(--text-color);
 
 }
 
 footer {
-    background-color: rgba(0, 128, 0, 0.452);
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
