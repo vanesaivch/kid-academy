@@ -65,6 +65,8 @@ footer {
     
 }
 
+/* Media query for mobile devices */
+
 @media (max-width: 768px) {
     #welcome {
         flex-direction: column;
