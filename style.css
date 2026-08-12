@@ -76,6 +76,8 @@ footer {
     
 }
 
+/* outter card styles  */
+
 .outter-card {
     width: 300px;
     height: 400px;
@@ -93,6 +95,13 @@ footer {
     display: block;
     border-radius: 10px;
 }
+/* Inner card styles */
+
+.height-img {
+    height: 200px;
+    object-fit: cover;
+}
+
 
 
 /* Media query for mobile devices */
