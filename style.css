@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+    /* Custom styles for the navbar */
+
+#custom-navbar {
+    background-color: rgba(0, 128, 0, 0.452) ;
+}
+    /* Body styles */
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  background-color: rgb(189, 28, 55);
+
+}
+
+footer {
+    background-color: rgba(0, 128, 0, 0.452);
+}
