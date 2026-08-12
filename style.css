@@ -97,7 +97,7 @@ footer {
 }
 /* Inner card styles */
 
-.heigh.height-img {
+.height-img {
     height: 200px;
     object-fit: cover;
 }
