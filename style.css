@@ -14,9 +14,9 @@
 
 :root {
     --primary-color: #A3D78A;
-    --secondary-color: #FF5555;
+    --secondary-color:#FF937E;
     --text-color: #6b1414;
-    --accent-color: #FF937E;
+    --accent-color:#FF5555 ;
     --highlight-color: #C1E59F;
     --font-family: 'Gorditas', sans-serif;
 
@@ -61,13 +61,12 @@ footer {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    position: relative;
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    
 }
 
-#frog {
-    position: absolute;
-    top: 40%;
-    left: 16%;
-    
-    
+@media (max-width: 768px) {
+    #welcome {
+        flex-direction: column;
+    }
 }
