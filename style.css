@@ -73,9 +73,41 @@ footer {
     gap: 2rem;
     padding: 2rem;
     background-color: var(--secondary-color);
+    perspective: 1000px;
     
 }
 
+.game1-container, .game2-container {
+  position: relative;
+    width: 300px;
+    height: 400px;
+  text-align: center;
+    perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.outter-card, .inner-card {
+  position: absolute;
+    inset: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+    transition: transform 0.8s;
+}
+
+.inner-card {
+    transform: rotateY(180deg);
+}
+
+.game1-container.flipped .outter-card,
+.game2-container.flipped .outter-card {
+    transform: rotateY(180deg);
+}
+
+.game1-container.flipped .inner-card,
+.game2-container.flipped .inner-card {
+    transform: rotateY(0);
+}
 /* outter card styles  */
 
 .outter-card {
